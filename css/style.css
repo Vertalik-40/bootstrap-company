@@ -1,0 +1,555 @@
+@font-face {
+    font-family: 'advent_probold';
+    src: url('../fonts/AdventPro/adventpro-bold-webfont.eot');
+    src: url('../fonts/AdventPro/adventpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AdventPro/adventpro-bold-webfont.woff2') format('woff2'),
+         url('../fonts/AdventPro/adventpro-bold-webfont.woff') format('woff'),
+         url('../fonts/AdventPro/adventpro-bold-webfont.ttf') format('truetype'),
+         url('../fonts/AdventPro/adventpro-bold-webfont.svg#advent_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'advent_promedium';
+    src: url('../fonts/AdventPro/adventpro-medium-webfont.eot');
+    src: url('../fonts/AdventPro/adventpro-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AdventPro/adventpro-medium-webfont.woff2') format('woff2'),
+         url('../fonts/AdventPro/adventpro-medium-webfont.woff') format('woff'),
+         url('../fonts/AdventPro/adventpro-medium-webfont.ttf') format('truetype'),
+         url('../fonts/AdventPro/adventpro-medium-webfont.svg#advent_promedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "OpenSansLight";
+    src: url("../fonts/OpenSansLight.eot");
+    src: url("../fonts/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansLight.woff") format("woff"),
+    url("../fonts/OpenSansLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.eot');
+    src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff'),
+         url('../fonts/opensans-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html{overflow-x: hidden;}
+
+body{
+	background:#fff;
+}
+
+div#wrap {
+    width: 100%;
+}
+
+.first{
+	height:80px;
+}
+
+/*#header{
+    background: #000;
+	height:80px;
+	position:fixed;
+	top:0px;
+	z-index:50;
+	width:100%;
+	border-bottom: 6px #00aba9 solid;
+}*/
+#header .header-nav {
+    background: #000;
+    border-bottom: 6px #00aba9 solid;
+}
+
+.head{
+    background: #2E2E30;
+    width: 100%;
+}
+.htop {
+	padding: 25px 0px 25px 0px;
+}
+
+.h3{
+	width: 80%;
+    margin: 0px auto;
+}
+.head2 { 
+	padding: 20px 0px 20px 0px;
+}
+
+header#header a.advocates {
+    font-size:36px;
+    padding-left: 28px;
+    margin-top: 0px;
+	font-family: 'advent_probold';
+	padding-bottom: 46px;	
+	color:#fff;
+	text-transform:uppercase;
+}
+#header a.advocates:hover{
+	color:#fff;
+}
+
+span.name{
+    color: #008287;
+    margin-left: 5px;
+    position: relative;
+}
+
+span.text {
+    display: block;
+    color: #AAAEB7;
+    word-spacing: 7px;
+    text-align: right;
+    font-family: 'open_sansregular';
+    font-size: 14px;
+}
+
+#responsive-menu li a{
+	font-family: 'advent_probold';
+	text-transform: uppercase;
+	background-color:#000;
+	font-size: 22px;
+}
+
+ul#responsive-menu {
+    float: right;
+	margin-top: 1%;
+}
+
+ul#responsive-menu li a{
+	color:#fff;
+}
+#responsive-menu li a:hover{
+	 background-color: #152366;
+ }
+#main{                                             /*   main  */
+    overflow: hidden;
+    margin: 0px auto;
+	position:relative;
+} 
+
+.content-one{                                            /*   content-one   */
+    padding: 35px 0px 0px 6px;
+}
+
+.content-one article {
+    float: left;
+    margin: 0px 51px 27px 0px;   
+}
+
+.content-one article h2,.content-two article h2{
+    font-size: 28px;
+    text-align: center;
+	font-family: 'advent_probold';
+	text-transform:uppercase;
+    margin: 0px 0px 30px 0px;
+}
+
+.content-one article h2 span{
+	color:#008287;
+}
+
+.content-one article p{
+    font-size:20px;
+    margin: 0px 0px 20px 0px;
+	border-top:#e9e9e9 1px solid;
+	color:#555;
+	font-family: 'open_sansregular';
+
+}
+.content-two{                                           /*    content-two   */
+    padding: 90px 0px 100px 0px;
+	background:#008287;
+}
+
+.content-two article h2{
+	color:#000;
+}
+
+.content-two article h2 span{
+	color:#fff;
+}
+
+.content-two article p{
+    font-size:20px;
+	font-family: 'open_sansregular';
+   	border-top:#fff 1px solid;
+	color:#fff;
+	padding-top:30px;
+	text-align:center;
+
+}
+
+.content-two article .servise1 h3,.content-two article .servise2 h3,
+.content-two article .servise3 h3,.content-two article .servise4 h3,
+.content-two article .servise5 h3,.content-two article .servise6 h3{
+	font-size: 30px;
+    color: #000;
+    font-family: 'advent_probold';
+    text-transform: uppercase;
+    margin-top: -6px;
+    margin-bottom: 3px;
+    padding-left: 13px;
+}
+
+.content-two article .servise1 p,.content-two article .servise2 p,
+.content-two article .servise3 p,.content-two article .servise4 p,
+.content-two article .servise5 p,.content-two article .servise6 p{
+	font-size: 15px;
+    font-family: open_sansregular;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    line-height: 19px;
+}
+
+.services-all{
+	padding-left: 80px;
+}
+
+.rest{
+	margin-top:55px;
+}
+   
+.servise1{	
+	background:url(../img/icon1.png) 0px 0px no-repeat;
+}
+
+.servise2{
+	background:url(../img/icon2.png) 0px 0px no-repeat;
+}
+
+.servise3{
+	background:url(../img/icon3.png) 0px 0px no-repeat;
+}
+
+.servise4{
+	background:url(../img/icon4.png) 0px 0px no-repeat;
+}
+
+.servise5{
+	background:url(../img/icon5.png) 0px 0px no-repeat;
+}
+
+.servise6{
+	background:url(../img/icon6.png) 0px 0px no-repeat;
+} 
+                                                                                /*    content-tree   */
+.content-tree article h2,.content-four article h2{
+	color:#000;
+	text-align:center;
+	font-family: 'advent_probold';
+}
+
+.content-tree article h2 span{
+	color:#008287;
+}
+
+.content-tree article p,.content-four article p{
+    font-size:20px;
+	font-family: 'open_sansregular';
+   	border-top:#e9e9e9 1px solid;
+	color:#555;
+	padding-top:30px;
+	text-align:center;
+} 
+
+.third {
+	padding-bottom: 100px;
+}                                                   /*   gallery   */
+
+#page {
+	width: 585px;
+	margin: 30px auto;
+}
+
+#thumbs img, #largeImage { 
+	padding: 4px;
+	background-color: white;
+	cursor: pointer;
+}
+
+img#largeImage {
+    width: 100%;
+    height: 385px;
+	padding:0px;
+}
+
+#thumbs img {
+	float: left;
+	margin-right: 17px;
+    margin-bottom: 17px;
+	width: 100%;
+    height: 184px;
+	padding:0px;
+	position:relative
+	
+}
+ 
+#thumbs img.eight,#thumbs img.ten{
+	margin-right:0px;
+}
+
+#description {
+	background: rgba(46,151,147,0.7);
+    color: white; 
+    font-family: 'open_sansregular';
+    position: absolute;
+    bottom: 15px; 
+    padding: 15px 15px 13px 15px;
+    width: 100%; 
+    margin: 0px; 
+    line-height: 22px; 
+}
+
+#panel span.foto-top {
+    background: rgba(6,6,6,0.5);
+}
+
+#description span {
+    color: #000;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+
+#panel { 
+	position: relative;
+    float: left;
+/*	margin-right: 17px;*/
+	    margin-bottom: 17px;
+}
+
+div.foto {
+    float: left;
+    width: 46%;
+    margin-right: 12px;
+    position: relative;
+}
+
+.ctr { padding-left: 49px;}
+
+span.foto-top {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: rgba(46,151,147,0.7);
+	padding:3px 15px;
+    z-index: 6;
+	font-size:16px;
+	text-transform: uppercase;
+	font-family: 'advent_probold';
+	color:#fff;
+}
+
+span.foto-bottom {
+    bottom: 25px;
+    position: absolute;
+    background: rgba(6,6,6,0.5);
+	padding:10px 0px 10px 16px;
+	font-size:13px;
+	font-family: 'advent_probold';
+    z-index: 5;
+	color:#fff;
+    left: 0px;
+    width: 100%;
+}                                                    /*   end of galerry    */
+                                                           /*   content-four    */
+.content-four {
+    overflow: hidden;
+    background: url(../img/bg.jpg);
+    border-bottom: 6px #00aba9 solid;
+}
+
+.fours{
+	padding-bottom: 100px;
+}		
+
+.content-four article h2 span {
+    color: #fff;
+}	
+
+.content-four article p{
+	margin-bottom: 55px;
+	color:#fff;
+}
+
+.position iframe{
+	width: 60%;
+    height: 210px;
+	float:left;
+	margin-right:16px;
+	border:none;
+}
+
+.addres{
+	font-family: 'open_sansregular';
+	color:#fff;
+	float: left;
+    width: 35%;
+}
+
+.addres  p{
+	font-size: 24px;
+    padding-bottom: 8px;
+    border-bottom: 1px #fff solid;
+    margin-bottom: 16px;
+}
+
+.addres ul{
+	list-style:none;
+	padding:0px 0px 0px 3px;
+	float:left; 
+	font-size: 17px;
+}
+
+ul.phone{
+	float:right;
+	text-align:right;
+}
+
+#main a.up{
+	width: 40px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    height: 40px;
+    background: url(../img/up.jpg);
+}										   
+                                         /*     end of main     */
+                                             /*   footer    */
+#footer{
+	padding: 50px 0px 50px 0px;
+	background: #000;
+	width: 102%;
+}
+
+ul.footer-left{
+	list-style:none;
+	color:#fff;
+}
+
+ul.footer-left li{
+	float:left;
+	border-left:1px #fff solid;
+	padding:0px 10px 0px 10px;
+	font-family: 'open_sansregular';
+}
+
+ul.footer-left li.name1 {
+    border-left: none;
+    font-size: 26px;
+    padding: 0px 16px 0px 0px;
+    font-family: 'advent_probold';
+    text-transform: uppercase;
+    margin-top: -5px;
+}
+
+ul.footer-left li.name1 span{
+	color:#007c81;
+}
+
+div.social{
+	
+	position:relative;
+}
+
+div.social a{
+	width:25px;
+	height:25px;
+	position:absolute;
+	top:0px;
+	/* background:url(../img/sprite.png)no-repeat; */
+}
+
+div.social a.link1{
+	background-position:0px 0px;
+	left:0px;
+}
+
+div.social a.link2{
+	background-position:-30px 0px;
+	left:30px;
+}
+
+div.social a.link3{
+	background-position:-60px 0px;
+	left:60px;
+}
+
+div.social a.link4{
+	background-position:-87px 0px;
+	left:90px;
+}
+
+div.social a.link5{
+	background-position:-117px 0px;
+	left:120px;
+}
+
+p.footer-right {
+    color: #fff;
+}
+
+p.footer-right span{
+	color:#008287;
+}
+
+.link1 .fa {
+    color: #fff;
+    background: #2C509B;
+    padding: 4px 8px 4px 8px;
+    font-size: 17px;
+}
+
+.link2 .fa {
+    background: #1AB2E8;
+    color: #fff;
+    padding: 4px 5px 4px 4px;
+    font-size: 17px;
+
+}
+
+.link3 .fa {
+    background: #f00;
+    padding: 4px 5px 4px 5px;
+    font-size: 17px;
+    color: #fff;
+}
+
+.link4 .fa {
+    background: #234260;
+    padding: 4px 5px 4px 5px;
+    font-size: 17px;
+    color: #fff;
+}
+
+.link5 .fa {
+    background: #CA1B22;
+    color: #fff;
+    padding: 4px 5px 4px 5px;
+    font-size: 17px;
+}                
+
